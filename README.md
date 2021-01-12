@@ -1,6 +1,6 @@
 # Grafikus processzorok tudományos célú programozása
 ## Mátrix-Vektor szorzás
-###Eredmények:
+### Eredmények:
 Egyelőre egyezik a CPU és a GPU változat
-###Hibák:
+### Hibák:
 A GPU lassabb
