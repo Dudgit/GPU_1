@@ -12,12 +12,9 @@ void vector_mx_naive(std::vector<float>& C, std::vector<float> const& vec, std::
     }
 }
 
-void vector_mx_alg(std::vector<float>& C, std::vector<float>& vec, std::vector<float>& mx, int N)
+void vector_mx_alg(std::vector<float>& C, std::vector<float> const& vec, std::vector<float> const & mx, int N)
 {
-    /*
-    A is the Matrix
-    B is the Vectr
-    */
+
     for (int i = 0; i < N; ++i)
     {
         C[i] = std::inner_product(mx.begin() + (i * N), mx.begin() + ((i + 1) * N), vec.begin(), .0f);

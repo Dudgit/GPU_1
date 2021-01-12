@@ -33,9 +33,6 @@ void fill_values(std::vector<float>& A, std::vector<float>& B, std::vector<float
 }
 
 
-
-
-
 void checker(std::vector<float>  ref_1, std::vector<float> ref_2, std::string err_name, std::string T1, std::string T2)
 {
     auto comparator = [](float l, float r) { return std::abs(l - r) < max_err; };
